@@ -1,2 +1,50 @@
-# Personal-World-Backup-on-GitHub
-Life is like a mayfly—fleeting and transient. This repository serves to back up and store all information about you in this world.
+# Personal World Backup on GitHub
+
+> Life is like a mayfly—fleeting and transient. Back up everything about you in this world.
+
+用 GitHub 做一份「人生备份仓」：公开可分享的自我档案、学习轨迹、作品清单与大事记。
+
+## 这是什么
+
+一套干净、可复制的仓库模版。把关于你的**可公开**信息结构化存进 Git：简介、笔记、产品、时间线与素材。适合长期维护，也适合当「个人世界」的版本控制备份。
+
+## 适合谁
+
+- 想把简历、作品、学习记录集中管理的人
+- 想用 Git / GitHub 做人生档案，而不是散落在网盘与备忘录里的人
+- 需要「公开展示版 + 私人完整版」两套仓的人（本模版先做公开安全骨架）
+
+## 目录结构
+
+| 路径 | 用途 |
+|------|------|
+| `profile/` | 关于你：简介、公开简历、联系方式占位 |
+| `learning/` | 学习笔记、书单、课程记录 |
+| `products/` | 做过的产品 / 项目清单 |
+| `timeline/` | 按年的大事记 |
+| `assets/` | 可公开图片、封面、示意图 |
+| `docs/` | 模版使用说明 |
+
+## 如何用这个模版新建自己的仓
+
+**方式一：GitHub Template（推荐）**
+
+1. 在本仓库页点击 **Use this template** → **Create a new repository**
+2. 选 Private（私人）或 Public（公开）
+3. 克隆到本地，按 `docs/如何使用本模版.md` 填写各目录
+
+**方式二：Fork**
+
+1. Fork 本仓库到自己的账号
+2. 改名为你想要的仓名，按需改为 Private
+3. 删掉示例文件里的演示内容，换成你自己的（仍勿放隐私）
+
+## 公开仓 vs 私人仓（安全提醒）
+
+- **公开仓**：只放愿意给任何人看的内容。示例文件已用虚构信息，请照此原则填写。
+- **私人仓**：可放更完整的个人资料，但**仍不要**提交密码、银行卡、身份证扫描件、私钥、`.env`、真实家庭住址等。
+- 本模版的 `.gitignore` 已忽略常见密钥与隐私目录；真正敏感材料请用加密网盘或密码管理器，不要进 Git。
+
+## License
+
+MIT © 2026 谢玉生
